@@ -1,0 +1,218 @@
+category:
+  super-category: "overworld"
+  subcategories: []
+  entries: ["armadillo", "bee", "camel", "cat", "chicken", "cow", "donkey", "fox", "goat", "horse", "llama", "mooshroom", "mule", "ocelot", "panda", "pig", "rabbit", "sheep", "sniffer", "wolf"]
+  gui:
+    rows: 6
+    title: "<green>Animals</green>"
+    background-material: "gray_stained_glass_pane"
+    background-slots: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 17, 18, 26, 27, 35, 36, 44, 45, 46, 47, 48, 50, 51, 52, 53]
+    icons:
+      armadillo-icon:
+        slots: [10]
+        link:
+          type: "entry"
+          target: "armadillo"
+        material: "armadillo_scute"
+        display-name: "<green>Armadillo</green>"
+        lore:
+          - "<gray>The armadillo is a passive mob that can be found in savanna biomes."
+          - "<gray>They drop scutes when killed."
+      bee-icon:
+        slots: [11]
+        link:
+          type: "entry"
+          target: "bee"
+        material: "honeycomb"
+        display-name: "<green>Bee</green>"
+        lore:
+          - "<gray>Bees are neutral mobs that live in beehives and bee nests."
+          - "<gray>They produce honey and honeycomb."
+      camel-icon:
+        slots: [12]
+        link:
+          type: "entry"
+          target: "camel"
+        material: "saddle"
+        display-name: "<green>Camel</green>"
+        lore:
+          - "<gray>Camels are passive mobs that can be ridden."
+          - "<gray>They can be found in desert biomes."
+      cat-icon:
+        slots: [13]
+        link:
+          type: "entry"
+          target: "cat"
+        material: "cod"
+        display-name: "<green>Cat</green>"
+        lore:
+          - "<gray>Cats are passive mobs that can be tamed with raw cod."
+          - "<gray>They scare away creepers and phantoms."
+      chicken-icon:
+        slots: [14]
+        link:
+          type: "entry"
+          target: "chicken"
+        material: "chicken"
+        display-name: "<green>Chicken</green>"
+        lore:
+          - "<gray>Chickens are passive mobs that lay eggs."
+          - "<gray>They drop raw chicken and feathers when killed."
+      cow-icon:
+        slots: [15]
+        link:
+          type: "entry"
+          target: "cow"
+        material: "beef"
+        display-name: "<green>Cow</green>"
+        lore:
+          - "<gray>Cows are passive mobs that can be milked."
+          - "<gray>They drop raw beef and leather when killed."
+      donkey-icon:
+        slots: [16]
+        link:
+          type: "entry"
+          target: "donkey"
+        material: "chest"
+        display-name: "<green>Donkey</green>"
+        lore:
+          - "<gray>Donkeys are passive mobs that can be ridden and equipped with chests."
+      fox-icon:
+        slots: [19]
+        link:
+          type: "entry"
+          target: "fox"
+        material: "sweet_berries"
+        display-name: "<green>Fox</green>"
+        lore:
+          - "<gray>Foxes are neutral mobs that can be found in taiga biomes."
+          - "<gray>They can be tamed with sweet berries."
+      goat-icon:
+        slots: [20]
+        link:
+          type: "entry"
+          target: "goat"
+        material: "milk_bucket"
+        display-name: "<green>Goat</green>"
+        lore:
+          - "<gray>Goats are passive mobs that can be milked."
+          - "<gray>They can be found in mountains."
+      horse-icon:
+        slots: [21]
+        link:
+          type: "entry"
+          target: "horse"
+        material: "horse_spawn_egg"
+        display-name: "<green>Horse</green>"
+        lore:
+          - "<gray>Horses are passive mobs that can be ridden."
+          - "<gray>They come in various colors and patterns."
+      llama-icon:
+        slots: [22]
+        link:
+          type: "entry"
+          target: "llama"
+        material: "llama_spawn_egg"
+        display-name: "<green>Llama</green>"
+        lore:
+          - "<gray>Llamas are passive mobs that can be ridden and equipped with chests."
+          - "<gray>They can be found in savanna and mountain biomes."
+      mooshroom-icon:
+        slots: [23]
+        link:
+          type: "entry"
+          target: "mooshroom"
+        material: "red_mushroom"
+        display-name: "<green>Mooshroom</green>"
+        lore:
+          - "<gray>Mooshrooms are passive mobs that can be milked for mushroom stew."
+          - "<gray>They can only be found in mushroom fields."
+      mule-icon:
+        slots: [24]
+        link:
+          type: "entry"
+          target: "mule"
+        material: "chest"
+        display-name: "<green>Mule</green>"
+        lore:
+          - "<gray>Mules are passive mobs that can be ridden and equipped with chests."
+          - "<gray>They are bred from horses and donkeys."
+      ocelot-icon:
+        slots: [25]
+        link:
+          type: "entry"
+          target: "ocelot"
+        material: "cod"
+        display-name: "<green>Ocelot</green>"
+        lore:
+          - "<gray>Ocelots are passive mobs that can be tamed into cats."
+          - "<gray>They scare away creepers."
+      panda-icon:
+        slots: [28]
+        link:
+          type: "entry"
+          target: "panda"
+        material: "bamboo"
+        display-name: "<green>Panda</green>"
+        lore:
+          - "<gray>Pandas are passive mobs that can be found in jungle biomes."
+          - "<gray>They love bamboo."
+      pig-icon:
+        slots: [29]
+        link:
+          type: "entry"
+          target: "pig"
+        material: "porkchop"
+        display-name: "<green>Pig</green>"
+        lore:
+          - "<gray>The pig is a passive animal that can be found in the overworld."
+          - "<gray>They can be bred using carrots, and can be ridden with a saddle."
+          - "<gray>They drop porkchops when killed."
+      rabbit-icon:
+        slots: [30]
+        link:
+          type: "entry"
+          target: "rabbit"
+        material: "rabbit"
+        display-name: "<green>Rabbit</green>"
+        lore:
+          - "<gray>Rabbits are passive mobs that can be found in various biomes."
+          - "<gray>They drop rabbit meat and rabbit hide when killed."
+      sheep-icon:
+        slots: [31]
+        link:
+          type: "entry"
+          target: "sheep"
+        material: "white_wool"
+        display-name: "<green>Sheep</green>"
+        lore:
+          - "<gray>Sheep are passive mobs that can be sheared for wool."
+          - "<gray>They come in various colors."
+      sniffer-icon:
+        slots: [32]
+        link:
+          type: "entry"
+          target: "sniffer"
+        material: "torchflower"
+        display-name: "<green>Sniffer</green>"
+        lore:
+          - "<gray>Sniffers are passive mobs that can dig up ancient seeds."
+          - "<gray>They can be found in warm ocean ruins."
+      wolf-icon:
+        slots: [33]
+        link:
+          type: "entry"
+          target: "wolf"
+        material: "bone"
+        display-name: "<green>Wolf</green>"
+        lore:
+          - "<gray>Wolves are neutral mobs that can be tamed with bones."
+          - "<gray>They will protect their owner from hostile mobs."
+      back-icon:
+        slots: [49]
+        material: "feather"
+        display-name: "<yellow>Back</yellow>"
+        lore:
+          - "<gray>Click to go back to the previous category."
+        click-action:
+          type: "back"

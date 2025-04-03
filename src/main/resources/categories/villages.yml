@@ -1,0 +1,18 @@
+category:
+  super-category: "overworld"
+  subcategories: []
+  entries: ["villager", "wandering_trader", "wandering_trader_llama", "iron_golem", "pillager", "vindicator", "evoker", "ravager"]
+  gui:
+    rows: 6
+    title: "<green>Villages</green>"
+    background-material: "gray_stained_glass_pane"
+    background-slots: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 17, 18, 26, 27, 35, 36, 44, 45, 46, 47, 48, 50, 51, 52, 53]
+    icons:
+      back-icon:
+        slots: [49]
+        material: "feather"
+        display-name: "<yellow>Back</yellow>"
+        lore:
+          - "<gray>Click to go back to the previous category."
+        click-action:
+          type: "back"

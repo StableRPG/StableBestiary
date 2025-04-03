@@ -1,0 +1,68 @@
+category:
+  super-category: "main"
+  subcategories: ["animals", "monsters", "aquatic", "villages", "weird"]
+  entries: []
+  gui:
+    rows: 5
+    title: "<green>Overworld</green>"
+    background-material: "gray_stained_glass_pane"
+    background-slots: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 17, 18, 26, 27, 35, 36, 37, 38, 39, 41, 42, 43, 44]
+    icons:
+      animals-category:
+        slots: [20]
+        link:
+          type: "category"
+          target: "animals"
+        material: "beef"
+        display-name: "<green>Animals</green>"
+        lore:
+          - "<gray>Discover the animals of the Overworld</gray>"
+          - "<gray>Learn about their behaviors and habitats</gray>"
+      monsters-category:
+        slots: [21]
+        link:
+          type: "category"
+          target: "monsters"
+        material: "spider_eye"
+        display-name: "<red>Monsters</red>"
+        lore:
+          - "<gray>Explore the dangerous creatures of the Overworld</gray>"
+          - "<gray>Learn about their attacks and weaknesses</gray>"
+      aquatic-category:
+        slots: [22]
+        link:
+          type: "category"
+          target: "aquatic"
+        material: "prismarine_shard"
+        display-name: "<aqua>Aquatic</aqua>"
+        lore:
+          - "<gray>Discover the aquatic life of the Overworld</gray>"
+          - "<gray>Learn about their habitats and behaviors</gray>"
+      villages-category:
+        slots: [23]
+        link:
+          type: "category"
+          target: "villages"
+        material: "emerald"
+        display-name: "<yellow>Villages</yellow>"
+        lore:
+          - "<gray>Explore the villages of the Overworld</gray>"
+          - "<gray>Learn about their structures and inhabitants</gray>"
+      weird-category:
+        slots: [24]
+        link:
+          type: "category"
+          target: "weird"
+        material: "ender_pearl"
+        display-name: "<dark_green>Weird Mobs</dark_green>"
+        lore:
+          - "<gray>Discover the weird aspects of the Overworld</gray>"
+          - "<gray>Learn about their weird ass features and behaviors</gray>"
+      back-icon:
+        slots: [40]
+        material: "feather"
+        display-name: "<yellow>Back</yellow>"
+        lore:
+          - "<gray>Click to go back to the previous category."
+        click-action:
+          type: "back"

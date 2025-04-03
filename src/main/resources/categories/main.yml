@@ -1,0 +1,47 @@
+category:
+  subcategories: ["overworld", "nether", "the_end"]
+  entries: []
+  gui:
+    rows: 5
+    title: "<dark_aqua>Bestiary</dark_aqua>"
+    background-material: "gray_stained_glass_pane"
+    background-slots: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 17, 18, 26, 27, 35, 36, 37, 38, 39, 41, 42, 43, 44]
+    icons:
+      overworld-category:
+        slots: [20]
+        link:
+          type: "category"
+          target: "overworld"
+        material: "grass_block"
+        display-name: "<green>Overworld</green>"
+        lore:
+          - "<gray>The main world of Minecraft</gray>"
+          - "<gray>Discover creatures that inhabit the surface</gray>"
+      nether-category:
+        slots: [22]
+        link:
+          type: "category"
+          target: "nether"
+        material: "netherrack"
+        display-name: "<red>Nether</red>"
+        lore:
+          - "<gray>The fiery dimension beneath</gray>"
+          - "<gray>Home to hostile and unique creatures</gray>"
+      the_end-category:
+        slots: [24]
+        link:
+          type: "category"
+          target: "the_end"
+        material: "end_stone"
+        display-name: "<dark_purple>The End</dark_purple>"
+        lore:
+          - "<gray>The mysterious final dimension</gray>"
+          - "<gray>Home to the Ender Dragon</gray>"
+      close-icon:
+        slots: [40]
+        material: "barrier"
+        display-name: "<red>Close</red>"
+        lore:
+          - "<gray>Click to close the inventory."
+        click-action:
+          type: "close"

@@ -1,0 +1,8 @@
+database:
+  type: h2
+  address: localhost
+  port: 3306
+  name: bestiary
+  username: root
+  password: root
+  auto-save-interval: 5 # in minutes
