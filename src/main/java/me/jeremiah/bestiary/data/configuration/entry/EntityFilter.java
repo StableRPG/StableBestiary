@@ -1,4 +1,4 @@
-package me.jeremiah.bestiary.data.configuration;
+package me.jeremiah.bestiary.data.configuration.entry;
 
 import lombok.Getter;
 import lombok.Setter;

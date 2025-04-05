@@ -1,6 +1,7 @@
 package me.jeremiah.bestiary.data.configuration;
 
 import lombok.Getter;
+import me.jeremiah.bestiary.data.configuration.entry.BestiaryEntry;
 import me.jeremiah.bestiary.gui.configuration.GUITemplate;
 
 import java.util.Collection;

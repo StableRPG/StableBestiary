@@ -2,7 +2,7 @@ package me.jeremiah.bestiary.data;
 
 import lombok.Getter;
 import lombok.Setter;
-import me.jeremiah.bestiary.data.configuration.BestiaryEntry;
+import me.jeremiah.bestiary.data.configuration.entry.BestiaryEntry;
 
 import java.util.HashMap;
 import java.util.Map;

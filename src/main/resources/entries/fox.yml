@@ -1,0 +1,11 @@
+entry:
+  category: "animals"
+  display-name: "<green>Fox</green>"
+  levels:
+    1: 10
+    2: 20
+    3: 30
+    4: 40
+    5: 50
+  entity-filter:
+    entity-type: "fox" 

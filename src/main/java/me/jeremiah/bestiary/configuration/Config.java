@@ -3,10 +3,10 @@ package me.jeremiah.bestiary.configuration;
 import lombok.Getter;
 import lombok.SneakyThrows;
 import me.jeremiah.bestiary.data.configuration.BestiaryCategory;
-import me.jeremiah.bestiary.data.configuration.BestiaryEntry;
 import me.jeremiah.bestiary.data.configuration.BestiarySubcategory;
-import me.jeremiah.bestiary.data.configuration.EntityFilter;
-import me.jeremiah.bestiary.data.configuration.LevelController;
+import me.jeremiah.bestiary.data.configuration.entry.BestiaryEntry;
+import me.jeremiah.bestiary.data.configuration.entry.EntityFilter;
+import me.jeremiah.bestiary.data.configuration.entry.LevelController;
 import me.jeremiah.bestiary.gui.configuration.GUITemplate;
 import org.bukkit.configuration.ConfigurationSection;
 import org.bukkit.configuration.file.YamlConfiguration;
@@ -155,7 +155,7 @@ public final class Config extends AbstractConfig {
     LevelController.Builder lcBuilder = new LevelController.Builder();
     for (int level : levels) {
       int killRequirement = levelsSection.getInt(String.valueOf(level));
-      lcBuilder.addLevel(level, killRequirement);
+      lcBuilder.addLevel(level, killRequirement, null);
     }
     LevelController levelController = lcBuilder.build();
 

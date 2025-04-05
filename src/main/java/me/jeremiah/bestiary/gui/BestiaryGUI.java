@@ -51,7 +51,7 @@ public class BestiaryGUI extends FastInv {
     ItemStack item = icon.getIcon(bPlayer, player);
     Consumer<InventoryClickEvent> clickHandler = null;
     switch (icon.getLink().getType()) {
-      case CATEGORY -> clickHandler = inventoryClickEvent -> icon.getLink().execute(bPlayer, player, this);
+      case CATEGORY, ENTRY -> clickHandler = inventoryClickEvent -> icon.getLink().execute(bPlayer, player, this);
     }
     switch (icon.getClickAction().getType()) {
       case CLOSE -> clickHandler = inventoryClickEvent -> player.closeInventory();

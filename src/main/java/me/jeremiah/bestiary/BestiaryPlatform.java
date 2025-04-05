@@ -6,11 +6,13 @@ import me.jeremiah.bestiary.configuration.Config;
 import me.jeremiah.bestiary.configuration.DatabaseConfig;
 import me.jeremiah.bestiary.data.BestiaryPlayer;
 import me.jeremiah.bestiary.data.configuration.BestiaryCategory;
-import me.jeremiah.bestiary.data.configuration.BestiaryEntry;
 import me.jeremiah.bestiary.data.configuration.DatabaseInfo;
+import me.jeremiah.bestiary.data.configuration.entry.BestiaryEntry;
 import me.jeremiah.bestiary.data.storage.AbstractDatabase;
 import me.jeremiah.bestiary.data.storage.H2;
+import me.jeremiah.bestiary.hooks.AuraSkillsHook;
 import me.jeremiah.bestiary.hooks.PlaceholderAPIHook;
+import me.jeremiah.bestiary.hooks.VaultHook;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.LivingEntity;
@@ -51,6 +53,8 @@ public class BestiaryPlatform implements Listener, Closeable {
     );
     Bukkit.getPluginManager().registerEvents(this, plugin);
     PlaceholderAPIHook.load(this);
+    VaultHook.load(this);
+    AuraSkillsHook.load(this);
   }
 
   public void load() {

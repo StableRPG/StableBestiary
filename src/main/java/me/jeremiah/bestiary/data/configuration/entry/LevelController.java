@@ -1,6 +1,6 @@
-package me.jeremiah.bestiary.data.configuration;
+package me.jeremiah.bestiary.data.configuration.entry;
 
-import lombok.Getter;
+import me.jeremiah.bestiary.data.configuration.entry.rewards.LevelReward;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -38,26 +38,13 @@ public class LevelController {
 
     private final List<LevelEntry> levels = new ArrayList<>();
 
-    public Builder addLevel(int level, int killsRequired) {
-      levels.add(new LevelEntry(level, killsRequired));
+    public Builder addLevel(int level, int killsRequired, LevelReward[] rewards) {
+      levels.add(new LevelEntry(level, killsRequired, rewards));
       return this;
     }
 
     public LevelController build() {
       return new LevelController(levels.toArray(new LevelEntry[0]));
-    }
-
-  }
-
-  @Getter
-  public static class LevelEntry {
-
-    private final int level;
-    private final int requiredKills;
-
-    private LevelEntry(int level, int requiredKills) {
-      this.level = level;
-      this.requiredKills = requiredKills;
     }
 
   }
