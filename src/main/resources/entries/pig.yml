@@ -2,10 +2,12 @@ entry:
   category: "animals"
   display-name: "<green>Pig</green>"
   levels:
-    1: 10
-    2: 20
-    3: 30
-    4: 40
-    5: 50
+    1:
+      kills: 5
+      rewards:
+        - type: "money"
+          amount: 10
+        - type: "exp"
+          amount: 5000000
   entity-filter:
     entity-type: "pig"
