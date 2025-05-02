@@ -5,7 +5,7 @@ plugins {
     id("java")
     id("com.gradleup.shadow") version "9.0.0-beta12"
     id("io.papermc.paperweight.userdev") version "2.0.0-beta.16"
-    id("xyz.jpenilla.resource-factory-paper-convention") version "1.2.0"
+    id("xyz.jpenilla.resource-factory-paper-convention") version "1.2.1"
 }
 
 group = "org.stablerpg.stablebestiary"
