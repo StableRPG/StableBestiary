@@ -29,7 +29,7 @@ dependencies {
     compileOnly("me.clip:placeholderapi:2.11.6")
     compileOnly("com.github.MilkBowl:VaultAPI:1.7.1")
     compileOnly("dev.aurelium:auraskills-api-bukkit:2.3.0")
-    compileOnly("dev.aurelium:slate:1.1.13")
+    compileOnly("dev.aurelium:slate:1.1.14")
 
     compileOnly("com.zaxxer:HikariCP:6.3.0")
     compileOnly("com.h2database:h2:2.3.232")
